@@ -1,10 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Zakatlists</title>
+
+</head>
+
+<body>
+  <section class="landing">
+    <!-- landing page -->
+    <p>Find trusted charity organizations around the globe.</p>
+  </section>
+
+  <section class="content">
+    <!-- list of charity organizations -->
+    <div class="card">
+      <img src="/photo.jpg" alt="">
+      <p>Feed The Poor</p>
+      <div class="bar">
+        <span>Raised: 1000 PKR</span>
+        <span>Target: 10000 PKR</span>
+      </div>
+      <a href="https://www.zakatlists.com">Website</a>
+      <a href="https://twitter.com/zakatlists">Twitter</a>
+      <a href="https://facebook.com/zakatlists">Facebook</a>
+      <a href="https://facebook.com/zakatlists">Whatsapp</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <!-- bottom part of the website -->
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    $.get('https://v1.nocodeapi.com/punch__lines/google_sheets/eXHyWjHypngeOvQb?tabId=Sheet1', function(res) {
+      console.log(res.data);
+    })
+  </script>
+
+</body>
+
 </html>
